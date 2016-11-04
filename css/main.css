@@ -1,0 +1,78 @@
+*{
+ font-family:sans-serif;
+ color: salmon
+}
+img{
+   width: 100 px;
+}
+h1{
+  color:blue;
+  color: #123456;
+  color: rgb(200,0,200);
+  color:rbga(100,0,255)
+}
+  /*CLASES, un conjunto de cosas que comparten caracterìsticas*/
+  /*SELECTOR comienza con un punto al principio*/
+  .cosas_azules{
+    color:lighblue;
+  }
+.grande{
+  font-size: 3em;
+  font-weight: 100;
+}
+/*SELECTOR ID*/
+/*empieza con gatito #*/
+/*Al elemento que le ponga ID #nombre ponle las siguientes caracterìsticas para
+un solo elemento*/
+#nombre{
+  font-style: italic;
+  color: magenta;
+}
+
+
+/*CLASE 4: 28 DE OCTUBRE */
+
+/*PSEUDOCLASES */
+
+#nombre:hover{
+  color:limegreen
+}
+
+
+/*VISITED*/
+a: visited{
+  color: blue
+}
+
+/*FIRST CHILD */
+
+li:first-child{
+  text-decoration: line-through;
+}
+
+/*LOS PSEUDOELEMENTOS CREAN ALGO */
+
+/*EJEMPLO pseudoelemento AFTER */
+li:after{
+  content: "*"
+}
+
+/*EJEMPLO pseudoelemento BEFORE */
+li:before{
+  content: "**"}
+
+/* EJERCICIO EN CSS DINER https://flukeout.github.io/ */
+
+.importante{
+  color: green;
+}
+
+#descripcion .importante{
+  color: blue;
+}
+
+/*Agrupar selectores*/
+
+p,a,li{
+  font-family: monospace;
+}
